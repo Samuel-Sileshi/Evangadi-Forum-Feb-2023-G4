@@ -34,7 +34,7 @@ return (
               to={`/SingleQuestion/${question.question_id}`}
               className="text-decoration-none text-reset"
            >
-            <p>{question.question}</p>
+            <h5 className='link_hover'>{question.question}</h5>
             <hr />
           
               
