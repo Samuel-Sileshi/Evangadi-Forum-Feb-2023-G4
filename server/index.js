@@ -49,7 +49,7 @@ server.get('/', (req, res) => {
 
 
 
-server.listen(port, host, (error) => { 
+server.listen(port, (error) => { 
     if (error) console.log(error);
     console.log(`http://${host}:${[port]}`);
 });
